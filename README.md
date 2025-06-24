@@ -39,8 +39,8 @@ This project benchmarks the effect of different activation functions—**Logisti
   - `learning_curves.png`
   - `summary_comparison.png`
   - `activation_table.md`
-- `notebook/`
-  - `mlp_activation_benchmark.ipynb`
+- `ANN.ipynb`
+  
 
 
 ---
