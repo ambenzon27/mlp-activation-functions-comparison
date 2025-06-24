@@ -4,55 +4,44 @@ This project benchmarks the effect of different activation functions—**Logisti
 
 ---
 
-## 🚀 Project Highlights
+## Project Highlights
 
-- 🔧 Two-layer MLP with user-configurable activations
-- 📈 Tracks Accuracy, F1 Score, and MCC over epochs
-- 🧠 Implements gradient descent with momentum
-- 🧪 Mini-batch training with learning curve visualization
-- 🗃️ Balanced synthetic or real multi-class dataset support
-- 📊 Activation-wise performance summary and plots
+-  Two-layer MLP with user-configurable activations
+-  Tracks Accuracy, F1 Score, and MCC over epochs
+-  Implements gradient descent with momentum
+-  Mini-batch training with learning curve visualization
+-  Balanced synthetic or real multi-class dataset support
+-  Activation-wise performance summary and plots
 
 ---
 
-## 📁 Repository Structure
-mlp-activation-functions-comparison/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-│
-├── data/
-│   ├── data.csv
-│   └── data_labels.csv
-│
-├── src/
-│   ├── train_mlp.py                # main training runner (all activations)
-│   ├── model.py                    # MLP architecture + activation selection
-│   ├── backpropagation.py         # forward, backward, update weights
-│   ├── metrics.py                 # accuracy, precision, recall, F1, MCC
-│   ├── data_loader.py             # read CSVs, normalize, split data
-│   ├── activation_functions.py    # tanh, logistic, leaky ReLU definitions
-│   ├── plotter.py                 # learning curves, confusion matrix, etc.
-│   └── config.py                  # hyperparameters and options
-│
-├── experiments/
-│   ├── logistic/
-│   │   ├── results.json
-│   │   ├── loss_curve.png
-│   │   └── confusion_matrix.png
-│   ├── tanh/
-│   │   └── ...
-│   └── leaky_relu/
-│       └── ...
-│
-├── figures/
-│   ├── summary_comparison.png
-│   ├── activation_table.md
-│   └── architecture_diagram.png
-│
-└── notebook/
-    └── mlp_activation_benchmark.ipynb 
+##  Repository Structure
+- `README.md`
+- `LICENSE`
+- `requirements.txt`
+- `data/`
+  - `data.csv`
+  - `data_labels.csv`
+- `src/`
+  - `train_mlp.py`
+  - `model.py`
+  - `backpropagation.py`
+  - `metrics.py`
+  - `data_loader.py`
+  - `activation_functions.py`
+  - `plotter.py`
+  - `config.py`
+- `experiments/`
+  - `logistic/`
+  - `tanh/`
+  - `leaky_relu/`
+- `figures/`
+  - `learning_curves.png`
+  - `summary_comparison.png`
+  - `activation_table.md`
+- `notebook/`
+  - `mlp_activation_benchmark.ipynb`
+
 
 ---
 
