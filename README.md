@@ -45,7 +45,7 @@ This project benchmarks the effect of different activation functions—**Logisti
 
 ---
 
-## 📊 Example Results
+##  Example Results
 
 | Activation   | Accuracy | F1 Score | MCC    |
 |--------------|----------|----------|--------|
@@ -53,7 +53,7 @@ This project benchmarks the effect of different activation functions—**Logisti
 | Tanh         | 0.90     | 0.89     | 0.87   |
 | Leaky ReLU   | 0.93     | 0.92     | 0.90   |
 
-> 📌 *Values are illustrative. See `/figures/` for real plots and results.*
+>  *Values are illustrative. See `/figures/` for real plots and results.*
 
 ---
 
