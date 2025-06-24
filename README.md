@@ -1,4 +1,4 @@
-# 🔍 MLP Activation Function Benchmarking
+# MLP Activation Function Benchmarking (repo is still in development)
 
 This project benchmarks the effect of different activation functions—**Logistic**, **Tanh**, and **Leaky ReLU**—on the training performance of a Multilayer Perceptron (MLP) using backpropagation with momentum. Designed for educational and research purposes, it compares training efficiency and classification quality across activation types using precision metrics like **Accuracy**, **F1 Score**, and **Matthews Correlation Coefficient (MCC)**.
 
@@ -57,9 +57,9 @@ This project benchmarks the effect of different activation functions—**Logisti
 
 ---
 
-## 🧰 Setup Instructions
+##  Setup Instructions
 
-### ✅ Install Dependencies
+### Install Dependencies
 ```bash
 pip install ------
 
